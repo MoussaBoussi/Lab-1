@@ -1,0 +1,25 @@
+.title{
+    display: inline;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    float:right;
+}
+
+.nav_bar {
+
+}
+
+button{
+    color: #f9fafc;
+}
+
+.btn_style{
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    background-color:#000;
+}
