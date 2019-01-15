@@ -1,6 +1,9 @@
 body {
     background-color: #f9fafc;
+
 }
+
+/* navigation bar */
 
 .title{
     display: inline;
@@ -30,6 +33,8 @@ a {
     text-decoration: none;
 }
 
+/* button styles */
+
 button{
     color: #f9fafc;
 }
@@ -41,11 +46,24 @@ button{
     margin: 10px;
 }
 
-main {
+.btn_style2{ 
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    background-color:#000;
+    margin: 10px;
+    position: relative;
+    left: 50%;
+    bottom:100%;
+    transform: translateX(-50%);
+}
 
+/* main body */
+main {
+    
 }
 
 h2 {
+    display: inline-block;
     margin-top:200px;
     margin-left: 20px;
     font-size: 32px;
@@ -58,7 +76,18 @@ h2 {
     border-left: 2px solid #69696a;
 }
 
-.circle{
+.circles{
+    position: relative;
+    top: 1%;
+    transform: translateY(-50%);
+    display: inline-block;
+    float: right;
+}
+
+.circle1{
+    position: absolute;
+    bottom: 20px;
+    right: 200px;
     width: 300px;
     height: 300px;
     border-radius: 150px;
@@ -66,6 +95,10 @@ h2 {
 }
 
 .circle2{
+    position: absolute;
+    float:right;
+    right: 100px;
+    top: -200px;
     width: 250px;
     height: 250px;
     border-radius: 125px;
@@ -73,6 +106,10 @@ h2 {
 }
 
 .circle3{
+    position: absolute;
+    right: 100px;
+    bottom: 120px;
+    float:right;
     width: 150px;
     height: 150px;
     border-radius: 75px;
