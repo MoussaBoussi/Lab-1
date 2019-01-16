@@ -1,6 +1,6 @@
 body {
     background-color: #f9fafc;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* navigation bar */
@@ -51,15 +51,16 @@ button{
     padding: 10px 20px 10px 20px;
     background-color:#000;
     margin: 10px;
+    display: inline-block;
     position: relative;
-    left: 50%;
-    bottom:100%;
-    transform: translateX(-50%);
+    left:50%;
+    top:170px;
+    transform: translatex(-50%);
 }
 
 /* main body */
 main {
-    
+   
 }
 
 h2 {
@@ -75,6 +76,8 @@ h2 {
     padding-left: 10px;
     border-left: 2px solid #69696a;
 }
+
+/* circles & circle placement */
 
 .circles{
     position: relative;
