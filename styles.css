@@ -22,7 +22,7 @@ body {
 }
 
 .link {
-    padding:5px;
+    padding:0px 5px 0px 5px;
     display:flex;
 }
 
