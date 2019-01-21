@@ -120,8 +120,6 @@ footer {
 
     .circles {
        z-index: -1;
-       background-color: black;
-       display:flex; 
     }
 
     .circle1 {
