@@ -128,7 +128,7 @@ footer {
         height: 150px;
         border-radius: 50%;
         background-color: rgba(207, 130, 213, 0.6);
-        right: 68px;
+        right: 25px;
         top: 238px;
     }
 
@@ -138,7 +138,7 @@ footer {
         height: 200px;
         border-radius: 50%;
         background-color: rgba(247, 193, 162, 0.7);       
-        right: 50px;
+        right: 25px;
         top: 360px;    
     }
 
@@ -148,8 +148,8 @@ footer {
         height: 300px;
         border-radius: 50%;
         background-color: rgba(247, 136, 167, 0.6);       
-        right: 170px;
-        top: 245px;
+        right: 128px;
+        top: 195px;
     }
 
     /* Footer */
