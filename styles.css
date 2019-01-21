@@ -1,6 +1,9 @@
 body {
     background-color: #f9fafc;
 }
+
+/* Navigation Bar */
+
 .navbar {
     display:flex;
     flex-direction: column;
@@ -8,7 +11,7 @@ body {
 
 .header {
     padding-left:5px;
-    margin-bottom:5px;
+    
 }
 
 .nav-links {
@@ -19,6 +22,12 @@ body {
 
 .link {
     padding:5px;
+    display:flex;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 h3 , h1 , p , a {
@@ -26,19 +35,16 @@ h3 , h1 , p , a {
 }
 
 .btn {
-    width: 100%;
     border:none;
     background-color: #000;
     color: #f9fafc;
     padding: 15px;
     border-radius: 50px;
+    align-self: center;
+    width:100%;
 }
 
-a {
-    text-decoration: none;
-    color: #69696a;
-    margin-right: 10px;
-}
+/* Main content */
 
 .line {
     border-left-style: solid;
@@ -53,7 +59,20 @@ p {
     margin:0;
 }
 
+/* Footer */
+
+footer {
+    display:flex;
+}
+
+.scrl {
+    margin-right:15px;
+}
+
 @media only screen and (min-width: 498px) {
+
+    /* Navigation Bar */
+
     .navbar {
         flex-direction: row;
         align-content: center;
@@ -61,7 +80,8 @@ p {
     }
 
     .header {
-        margin-top:15px;
+        margin:0;
+        align-self: center;
     }
 
     .nav-links {
@@ -81,6 +101,8 @@ p {
         padding-bottom: 10px;
     }
 
+    /* Main Content */
+
     .container {
         display:flex;
         flex-direction: row;
@@ -94,8 +116,12 @@ p {
         margin-top:100px;
     }
 
+    /* Circles */
+
     .circles {
        z-index: -1;
+       background-color: black;
+       display:flex; 
     }
 
     .circle1 {
@@ -127,6 +153,8 @@ p {
         right: 170px;
         top: 245px;
     }
+
+    /* Footer */
 
     footer {
         position: absolute;
